@@ -18,7 +18,7 @@ public class Kriptonita extends Thread {
             UnidadesKriptonita = saldito + CantidadKriptonita;
             System.out.println("El ingresador " + hilo.getName() + " metió 1 de Kriptonita. "+
                     "La cantidad es "+ UnidadesKriptonita);
-            notifyAll();
+
             try {
                 sleep(10000);//tardan 10 segundos en recolectar las piedras
             } catch (InterruptedException ex) {
